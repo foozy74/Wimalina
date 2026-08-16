@@ -1,24 +1,25 @@
-# Wimalina & Partners — Public Affairs, Political Strategy & Arena Analysis
+# Wimalina Limited — Boutique Advisory Services
 
-High-performance, containerized, animated corporate web platform for **Wimalina & Partners**. Built with semantic HTML5, modern vanilla CSS3 (Monochrome + Crimson Red design system), Vanilla JavaScript ES2024, Docker, and GitHub Actions CI/CD workflows.
+Independent corporate finance and strategic advisory platform for selected mandates across the United Kingdom, Continental Europe, the United States, and beyond.
 
 ---
 
 ## 🏛️ Corporate Profile & Strategic Focus
 
-Wimalina & Partners is a premier strategic advisory firm specializing in:
-* **Public Affairs & Policy Advocacy**: Legislative monitoring, political risk assessment, and policy representation across the UK, DACH, and EU markets.
-* **Arena Analysis (Emerging Issues)**: Proprietary foresight methodology identifying socio-political trends and regulatory shifts long before they reach headline status.
-* **Stakeholder Engagement & Wicked Problems**: Executive roundtables and multi-stakeholder mediation for complex, high-stakes environments.
-* **Regulatory Governance**: Ethical advocacy compliant with statutory transparency registries and international codes of conduct.
+Wimalina Limited is a boutique advisory firm specializing in:
+* **Corporate Finance**: Capital raising, strategic funding concepts, acquisition and divestment support, restructuring, and balance sheet preparation.
+* **Mergers & Acquisitions (M&A)**: Buy-side, sell-side, and partnership support across positioning, materials, due diligence, negotiation, and closing preparation.
+* **Strategic Advisory**: Principal-level sparring on commercial direction, financing options, growth pathways, and stakeholder settings.
+* **Special Situations**: Assignments involving heightened complexity, confidential settings, or cross-border sensitivities.
+* **Project & Process Management**: Workstream oversight, timing discipline, adviser and counterparty coordination, and execution continuity.
 
 ---
 
-## 🎨 Visual Design System
+## 🎨 Design & Visual Aesthetic
 
-* **Monochrome Base Palette**: Deep Black (`#050507`), Charcoal (`#121216`), Dark Slate (`#1a1a20`), Muted Silver (`#a1a1aa`), and Pure White (`#ffffff`).
-* **Vibrant Red Accent**: Crimson Red (`#ff2a3b`) used exclusively for badges, buttons, active states, pulse rings, and interactive particle mesh.
-* **Interactive Canvas Physics**: Ambient canvas background rendering real-time node mesh connections and mouse parallax response.
+* **Paper & Navy Base**: Clean, executive typography using Inter and classic serif elements over a refined paper background (`#f6f4f1`) with deep navy (`#102237`) and subtle gold accent lines (`#c7a576`).
+* **Responsive Layout**: Built with semantic HTML5 and modern CSS3 for seamless browsing across mobile, tablet, and desktop devices.
+* **Corporate Download**: Includes direct PDF profile download (`assets/wimalina-corporate-profile-2026.pdf`).
 
 ---
 
@@ -54,9 +55,9 @@ Open **`http://localhost:8000`** in your web browser.
 ## 📦 Repository Structure
 
 ```text
-├── index.html                # Semantic HTML5 entrypoint (English, Public Affairs focus)
-├── styles.css                # Monochrome & Crimson Red CSS design system
-├── app.js                    # Canvas particle physics, showreel modal & stats logic
+├── index.html                # Semantic HTML5 entrypoint
+├── styles.css                # Classic executive CSS design system
+├── assets/                   # Corporate profile PDF, favicon & branding graphics
 ├── Dockerfile                # Nginx Alpine container image configuration
 ├── docker-compose.yml        # Local multi-container execution setup
 ├── .dockerignore             # Docker build exclusion rules
@@ -68,14 +69,6 @@ Open **`http://localhost:8000`** in your web browser.
 
 ---
 
-## 🚀 GitHub Deployment Pipeline
-
-This repository includes a pre-configured GitHub Actions workflow in `.github/workflows/deploy.yml`:
-1. **GitHub Pages**: Automatically builds and deploys static assets to GitHub Pages on pushes to `main` or `master`.
-2. **Container Registry**: Validates Docker image compilation and multi-stage builds.
-
----
-
 ## 🔒 License & Copyright
 
-&copy; 2026 Wimalina & Partners. All rights reserved.
+&copy; 2026 Wimalina Limited. All rights reserved.

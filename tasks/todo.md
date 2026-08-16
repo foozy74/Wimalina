@@ -1,8 +1,9 @@
-# TODO List: Wimalina & Partners English Monochrome/Red Redesign
+# TODO List: Wimalina Limited Web Project Adaptation
 
-- [x] Convert 100% of website content & metadata to English
-- [x] Remove all IT jargon, software development pills & tech text from website copy
-- [x] Implement Monochrome (Black, Charcoal, Silver, White) color system
-- [x] Apply Crimson Red (`#ff2a3b`) as exclusive eye-catcher accent color
-- [x] Rebuild and verify Docker container build (`docker build -t wimalina-web:latest .`)
+- [x] Analyze `/Website` directory and assets
+- [x] Adopt original `Website/` design system (paper background, navy/gold palette)
+- [x] Adapt root `index.html` with Corporate Finance & Strategic Advisory content
+- [x] Omit personal contact/phone numbers as requested by user
+- [x] Copy all corporate assets (PDF profile, branding images) to root `assets/`
+- [x] Verify Docker build (`docker build -t wimalina-web:latest .`)
 - [x] Generate walkthrough document (`walkthrough.md`)

@@ -20,17 +20,12 @@
           <small>Boutique Advisory Services</small>
         </span>
       </a>
-      <nav id="siteNav">
+      <nav>
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#approach">Approach</a>
         <a href="#contact">Contact</a>
       </nav>
-      <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
     </header>
 
     <main id="top">
@@ -173,14 +168,12 @@
       <section class="contact" id="contact">
         <div class="contact-card">
           <div>
-            <p class="eyebrow">Direct Contact</p>
-            <h2>Corporate Advisory</h2>
-            <p class="role">United Kingdom &bull; European Union &bull; United States</p>
-            <p class="contact-desc" style="margin-top: 12px; font-size: 0.95rem; color: rgba(255, 255, 255, 0.85); line-height: 1.6;">
-              For mandate inquiries, confidential discussions, or transaction preparation, please reach out via our executive network or download our corporate profile.
-            </p>
+            <p class="eyebrow">Your Personal Contact</p>
+            <h2>Harald Mueller</h2>
+            <p class="role">Director</p>
+            <a class="phone" href="tel:+4369919090634">+43 699 19090634</a>
           </div>
-          <img src="assets/crest-mark.jpg" alt="Wimalina Crest Mark" aria-hidden="true">
+          <img src="assets/crest-mark.jpg" alt="" aria-hidden="true">
         </div>
         <div class="download-card">
           <p class="eyebrow">Corporate Profile</p>
@@ -196,25 +189,5 @@
         Copyright © 2026 Wimalina Ltd. All rights reserved. This website is for information purposes only and does not constitute legal, tax or investment advice.
       </p>
     </footer>
-
-    <script>
-      (function() {
-        const toggleBtn = document.getElementById('mobileNavToggle');
-        const siteHeader = document.querySelector('.site-header');
-        const navLinks = document.querySelectorAll('nav a');
-
-        if (toggleBtn && siteHeader) {
-          toggleBtn.addEventListener('click', function() {
-            siteHeader.classList.toggle('nav-open');
-          });
-
-          navLinks.forEach(function(link) {
-            link.addEventListener('click', function() {
-              siteHeader.classList.remove('nav-open');
-            });
-          });
-        }
-      })();
-    </script>
   </body>
 </html>

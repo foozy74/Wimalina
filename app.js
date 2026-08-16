@@ -45,7 +45,7 @@ function initAmbientCanvas() {
             this.baseY = this.y;
             this.vx = (Math.random() - 0.5) * 0.5;
             this.vy = (Math.random() - 0.5) * 0.5;
-            this.color = Math.random() > 0.6 ? 'rgba(255, 42, 59, ' : 'rgba(180, 180, 190, ';
+            this.color = Math.random() > 0.6 ? 'rgba(197, 168, 128, ' : 'rgba(148, 163, 184, ';
             this.alpha = Math.random() * 0.4 + 0.2;
         }
 
@@ -95,7 +95,7 @@ function initAmbientCanvas() {
                     ctx.beginPath();
                     ctx.moveTo(particles[a].x, particles[a].y);
                     ctx.lineTo(particles[b].x, particles[b].y);
-                    ctx.strokeStyle = `rgba(255, 42, 59, ${opacity})`;
+                    ctx.strokeStyle = `rgba(197, 168, 128, ${opacity})`;
                     ctx.lineWidth = 0.8;
                     ctx.stroke();
                 }

@@ -17,6 +17,7 @@ RUN echo 'server { \
     gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript; \
     location / { \
         try_files $uri $uri/ /index.html; \
+        add_header Cache-Control "no-cache, must-revalidate"; \
     } \
     location ~* \.(?:css|js|map|jpe?g|png|gif|svg|ico|mp4|webm)$ { \
         expires 7d; \

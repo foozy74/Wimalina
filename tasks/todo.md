@@ -9,5 +9,5 @@
 - [x] Generate walkthrough document (`walkthrough.md`)
 - [x] Diagnose live site `https://wimalina.thesolution.at/` mismatch (Cloudflare HTML caching issue)
 - [x] Update `Dockerfile` Nginx config to set `Cache-Control: no-cache, must-revalidate` for `index.html`
-- [ ] Commit & push updated Dockerfile to GitHub to trigger fresh deployment and purge cache
+- [x] Commit & push updated Dockerfile to GitHub to trigger fresh deployment and purge cache
 

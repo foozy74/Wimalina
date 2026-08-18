@@ -75,7 +75,7 @@ a {
 .brand-mark {
   width: 36px;
   height: 36px;
-  background: url("assets/Logo-wimalina-transparent.png") center / contain no-repeat;
+  background: url("assets/Logo-wimalina-transparent.svg") center / contain no-repeat;
 }
 
 nav {
@@ -118,7 +118,7 @@ nav a:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("assets/Logo-wimalina-transparent.png") center / min(450px, 60vw) no-repeat;
+  background: url("assets/Logo-wimalina-transparent.svg") center / min(450px, 60vw) no-repeat;
   opacity: 0.08;
   pointer-events: none;
 }

@@ -73,13 +73,9 @@ a {
 }
 
 .brand-mark {
-  width: 34px;
-  height: 34px;
-  border: 1px solid rgba(255, 255, 255, 0.55);
-  border-radius: 50%;
-  background:
-    linear-gradient(90deg, transparent 46%, var(--gold) 47% 53%, transparent 54%),
-    linear-gradient(0deg, transparent 46%, var(--gold) 47% 53%, transparent 54%);
+  width: 36px;
+  height: 36px;
+  background: url("assets/Logo-wimalina-transparent.png") center / contain no-repeat;
 }
 
 nav {
@@ -116,6 +112,15 @@ nav a:hover {
     linear-gradient(90deg, rgba(16, 24, 45, 0.94) 0%, rgba(31, 18, 56, 0.7) 46%, rgba(21, 18, 38, 0.64) 100%),
     url("assets/hero-building.jpg") center / cover no-repeat;
   filter: saturate(1.05);
+}
+
+.hero-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("assets/Logo-wimalina-transparent.png") center / min(450px, 60vw) no-repeat;
+  opacity: 0.08;
+  pointer-events: none;
 }
 
 .hero-lines {

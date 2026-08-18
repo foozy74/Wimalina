@@ -447,7 +447,7 @@ blockquote {
 
 .contact-card img {
   width: min(220px, 34vw);
-  opacity: 0.28;
+  opacity: 0.82;
   mix-blend-mode: multiply;
 }
 
